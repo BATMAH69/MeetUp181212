@@ -19,10 +19,10 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^23.0.4",
+    "expo": "^31.0.2",
     "native-base": "^2.3.5",
-    "react": "16.0.0",
-    "react-native": "0.50.3",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
     "react-navigation": "^1.0.0-beta.22"
   }
 }
