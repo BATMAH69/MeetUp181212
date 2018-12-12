@@ -1,13 +1,12 @@
 import React from "react";
-import { Image } from "react-native";
+import { Text, Image } from "react-native";
 import {
-  Text,
   Container,
   List,
   ListItem,
   Content,
 } from "native-base";
-const routes = ["Home", "Example1","Example2"];
+const routes = ["Home", "Show","Bridge","Styles","Scripts"];
 export default class SideBar extends React.Component {
   render() {
     return (
