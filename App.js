@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Expo from "expo";
 
-import HomeScreen from "./src/HomeScreen";
+import HomeScreen from "./src/Screens";
 export default class AwesomeApp extends Component {
   constructor() {
     super();
