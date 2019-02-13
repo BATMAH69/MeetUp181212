@@ -1,3 +1,17 @@
-# Basic ReactNavigation Example App and Tutorial
-This is a simple 3-page application that demonstrates the basic usage of [React Navigation](https://reactnavigation.org/) as a navigation tool. It is extremely easy to understand. This step-by-step tutorial will take you through the basic concepts. We are using [NativeBase](https://nativebase.io/) as the UI library to design our pages.<br />
-<br />
+react-native and WebView
+
+SetUp instruction:
+
+1) install expo-cli https://facebook.github.io/react-native/docs/getting-started
+2) git clone https://github.com/BATMAH69/MeetUp181212.git
+3) cd ./MeetUp181212
+4) npm i
+5) epo login
+6) expo start
+
+Open on device
+1) install expo app to your phone.
+2) Open expo app
+3) Login in expo app.
+4) Open tab "Profile"
+5) Select MeetUp181212 from list

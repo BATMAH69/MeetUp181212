@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Expo from "expo";
+import { Font, AppLoading } from "expo";
 
 import HomeScreen from "./src/Screens";
 export default class AwesomeApp extends Component {
@@ -10,7 +10,7 @@ export default class AwesomeApp extends Component {
     };
   }
   async componentWillMount() {
-    await Expo.Font.loadAsync({
+    await Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
       Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
       Ionicons: require("native-base/Fonts/Ionicons.ttf")
@@ -19,7 +19,7 @@ export default class AwesomeApp extends Component {
   }
   render() {
     if (!this.state.isReady) {
-      return <Expo.AppLoading />;
+      return <AppLoading />;
     }
     return <HomeScreen />;
   }
